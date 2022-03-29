@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAO4DBrZIlgVMlZQ34KLL5TBsWncnyVeDE",
-    authDomain: "dental-healthcare-f94fe.firebaseapp.com",
-    projectId: "dental-healthcare-f94fe",
-    storageBucket: "dental-healthcare-f94fe.appspot.com",
-    messagingSenderId: "283107942931",
-    appId: "1:283107942931:web:5949faf7762e3703c015e6"
+    apiKey: "AIzaSyApZ65zrPArPDBMDZP7zQSDbOYKBAndMFU",
+  authDomain: "buycourses-c2c07.firebaseapp.com",
+  projectId: "buycourses-c2c07",
+  storageBucket: "buycourses-c2c07.appspot.com",
+  messagingSenderId: "428149811426",
+  appId: "1:428149811426:web:3cc31f4ec3c055ece596bb"
 };
 export default firebaseConfig;
