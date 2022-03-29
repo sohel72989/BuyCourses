@@ -1,18 +1,29 @@
-import React from 'react';
-import partner1 from './../../img/partner/a1.jpg';
-import partner2 from './../../img/partner/a2.jpg';
-import partner3 from './../../img/partner/a3.jpg';
-import partner4 from './../../img/partner/a4.jpg';
-
+import React, { useEffect, useState } from 'react';
+import Doctor from '../Doctors/Doctor';
 const Partners = () => {
+    const [doctors, setDoctors] = useState([]);
+    useEffect(() => {
+        fetch('./doctors.json')
+            .then(res => res.json())
+            .then(data => setDoctors(data));
+    }, []);
     return (
-        <div className="text-center py-5">
-            <h1 className="pb-5">Affiliate partners</h1>
-            <img src={partner1} className="img-fluid" alt="" />
-            <img src={partner2} className="img-fluid" alt="" />
-            <img src={partner3} className="img-fluid" alt="" />
-            <img src={partner4} className="img-fluid" alt="" />
+        <div>
+        <div className="container py-5">
+            <div className="text-center pb-4">
+                <h1>Teachers Available</h1>
+                <p>The reputation of the Hospital is the result of quality clinical outcome and comprehensive care, made achievable through world class integrated healthcare facilities by highly trained professionals. Thus, the Hospitals strives to meet patients’ standards through quality healthcare and making a difference in their lives.</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                {
+                    doctors.map(doctor => <Doctor
+                        key={doctor.id}
+                        doctor={doctor}
+                    ></Doctor>)
+                }
+            </div>
         </div>
+    </div>
     );
 };
 

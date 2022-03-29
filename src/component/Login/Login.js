@@ -71,7 +71,7 @@ const Login = () => {
                             </div>
                             <br />
                             <div className="form-group">
-                                <button className="btn btn-color w-100" type="submit">Login</button>
+                                <button className="btn btn-col w-100" type="submit">Login</button>
                             </div>
                         </div>
                     </div>

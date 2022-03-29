@@ -12,11 +12,13 @@ const Doctors = () => {
     }, []);
     return (
         <div>
-            <Header></Header>
+            <div className="head-color">
+                <Header></Header>
+                </div>
             <div className="container py-5">
                 <div className="text-center pb-4">
-                    <h1>Doctors Available</h1>
-                    <p>The reputation of the Hospital is the result of quality clinical outcome and comprehensive care, made achievable through world class integrated healthcare facilities by highly trained professionals. Thus, the Hospitals strives to meet patients’ standards through quality healthcare and making a difference in their lives.</p>
+                    <h1>Teachers Available</h1>
+                    <p>The reputation of the EDUCAHUB is thebest of quality Skillful outcome and comprehensive care, made achievable through world class integrated Learning facilities by highly trained professionals. Thus, the EDUCAHUB strives to meet Student’ standards through quality Skills and making a difference in their lives.</p>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     {

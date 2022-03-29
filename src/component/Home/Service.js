@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './service.css';
 
 const Service = (props) => {
-    const { id, name, img, description } = props.service;
+    const { id, name, img } = props.service;
     return (
         <div>
             <div class="col">
@@ -11,8 +11,7 @@ const Service = (props) => {
                     <img src={img} class="card-img-top img-fluid" alt="..." />
                     <div class="card-body">
                         <h5 class="card-title">{name}</h5>
-                        <p class="card-text">{description}</p>
-                        <NavLink to={`/home/${id}`} className="btn btn-color py-2 px-5">More Details</NavLink>
+                        <NavLink to={`/home/${id}`} className="btn btn-col py-2 px-5">More Details</NavLink>
 
                     </div>
                 </div>

@@ -1,37 +1,49 @@
 
 .banner{
-    background-image: url(../../img/banner/bannar.jpeg);
+    background-image: url(../../img/banner/2-1.jpg);
     height: 700px; 
     background-size: cover;
 }
 .dark-overly{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     height: 700px; 
 
 }
 .text-position{
-    display: flex;
+    /* display: flex; */
     margin-left: 100px;
+    margin-top: 100px;
     align-items: center;
     height: 700px;
 }
 .title-font{
-    font-size: 100px;
-    color: rgb(78, 186, 212);
+    font-size: 70px;
+    color: whitesmoke;
+}
+.header-text{
+    color: #ff5421;
+}
+.btn-col{
+    color: whitesmoke;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    background-color: rgb(255, 84, 33);
 }
 
 
-@media only screen and (max-width: 425px) {
+@media only all and (max-width: 975px) {
     .banner{
-        height: 300px; 
+        height: auto; 
         background-size: cover;
     }
     .dark-overly{
-        height: 300px;
+        height: auto;
     }
     .text-position{
       
-        height: 300px;
+        height:auto;
     }
     .title-font{
         font-size: 30px;

@@ -11,7 +11,9 @@ const Doctor = (props) => {
                     <div class="card-body">
                         <h5 class="card-title">{doctor}</h5>
                         <p class="card-text">{description}</p>
-                        <NavLink to="/doctors" className="btn btn-color py-2 px-5">More Details</NavLink>
+                        <NavLink to={`/doctors`}>
+              <button className="btn btn-col"> More Details</button>
+            </NavLink>
 
                     </div>
                 </div>

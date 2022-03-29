@@ -9,7 +9,7 @@ import NotFound from './component/NotFound/NotFound';
 import ServiceDetails from './component/ServiceDetails/ServiceDetails';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './component/PrivateRoute/PrivateRoute';
-import Doctors from './component/Doctors/Doctors';
+import Services from './component/Home/Services';
 
 function App() {
   return (
@@ -26,8 +26,8 @@ function App() {
             <PrivateRoute exact path="/home/:serviceId">
               <ServiceDetails></ServiceDetails>
             </PrivateRoute>
-            <PrivateRoute exact path="/doctors">
-              <Doctors></Doctors>
+            <PrivateRoute exact path="/services">
+            <Services></Services>
             </PrivateRoute>
             <PrivateRoute exact path="/about-us">
               <AboutUs></AboutUs>

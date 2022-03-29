@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "description": "The practice involves swishing oil around in your mouth to remove bacteria, which can turn into plaque and cause your teeth to look yellow.",
-        "doctor": "Dr. Robin Hood",
-        "img": "https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
+        "description": "Principal",
+        "doctor": "Melania Trump",
+        "img": "https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/09/teacher_6.jpg"
     },
     {
         "id": 2,
-        "description": "Urologist, Andrologist & Uro-Oncologist Chief Consultant & Head of the Dept. of Urology,Honorary Professor, Ex. Urological Surgeon",
-        "doctor": "Dr. Md. Jahangir Kabir",
-        "img": "https://labaid.com.bd/files/images/1583993243.jpg"
+        "description": "Vice Principal",
+        "doctor": "Hosaifa Albenian",
+        "img": "https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/09/teacher_107.jpg"
     },
     {
         "id": 3,
-        "description": "Dr. Jahangir Alam graduated from Dhaka Medical College under the University of Dhaka. Like most other Bangladeshi medical professionals.",
-        "doctor": "Dr. Jahangir Alam",
-        "img": "https://img.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg?size=626&ext=jpg"
+        "description": "Assistant Director",
+        "doctor": "Shuprio Shaa",
+        "img": "https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/08/teacher_10.jpg"
     },
     {
         "id": 4,
-        "description": "Prof. Dr. Md. Abu Bakar passed MBBS from Sher-e-Bangla Medical College and completed FCPS degree in Internal Medicine from Bangladesh College of Physicians and Surgeons (BCPS).",
-        "doctor": "Prof. Dr. Md. Abu Bakar",
-        "img": "https://www.squarehospital.com/storage/images/1521005199Dr_Bakar_(3).jpg"
+        "description": "Assistant Director",
+        "doctor": "Monalisa Carrion",
+        "img": "https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/08/teacher_21.jpg"
     },
     {
         "id": 5,
-        "description": "He got advanced training in oral cancer surgery and reconstruction from University of Peradeniya, Kandy, Sri Lanka as JICA Fellowship (Japan); Dental Implant from Boston, USA.",
-        "doctor": "A. Professor Dr. S. M. Anwar Sadat",
-        "img": "https://www.squarehospital.com/storage/images/1623232170.png"
+        "description": "Manager",
+        "doctor": "Jhon Pedrocas",
+        "img": "https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/08/teacher_2.jpg"
     },
     {
         "id": 6,
-        "description": "Prof. Dr. Sultana Razia Begum graduated from Mymenshingh Medical College and secured 2nd position with Honors in Surgery and Obstetrics and Gynecology.",
-        "doctor": "Prof. Dr. S. R. Begum",
-        "img": "https://www.squarehospital.com/storage/images/1521005688Prof_SR_Begum_(4).jpg"
+        "description": "Professor",
+        "doctor": "Lina Anthony",
+        "img": "https://keenitsolutions.com/products/wordpress/educavo/wp-content/uploads/2020/08/teachers_17.jpg"
     }
 ]

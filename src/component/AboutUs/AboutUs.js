@@ -1,11 +1,13 @@
 import React from 'react';
 import Header from '../Shared/Header';
 import Footer from '../Shared/Footer';
+import "../AboutUs/About.css";
 
 const AboutUs = () => {
     return (
         <div>
-            <Header></Header>
+            <div className="head-color"><Header></Header></div>
+            
             <div className="container py-5">
                 <div className="text-center pb-5">
                     <h1>ABOUT PureDentSmile</h1>

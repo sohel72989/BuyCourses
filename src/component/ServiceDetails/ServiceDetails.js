@@ -16,11 +16,13 @@ const ServiceDetails = () => {
     console.log(details)
     return (
         <div>
+            <div className="head-color">
             <Header></Header>
+           </div>
             <div className="container py-5">
                 <div className="pb-5">
                     <h1>We are here to help when you need us</h1>
-                    <p>By helping with daily activities, our caregivers enable clients to maintain their normal daily routines. Hourly home care allows clients to use our caregivers on an hourly or as-needed basis. Surrounded by their possessions, pets, and a familiar environment, our clients receive the support they need to enjoy their regular activities and continue living well at home.</p>
+                    <p>We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of your moment, so blinded by desire those who fail in their duty through weakness. These cases are perfectly simple and easy every pleasure is to be welcomed and every pain avoided..</p>
                 </div>
                 <div className="row">
                     <div className="col-md-6">
@@ -31,12 +33,10 @@ const ServiceDetails = () => {
                             <h1>{details?.name}</h1>
                             <p>Service No. {serviceId}</p>
                         </div>
-                        <h5>Doctor: Dr. {details?.doctor}</h5>
+                        <h5>Guideline: {details?.Guideline}</h5>
 
                         <p>Fee: ${details?.price}</p><br />
-                        <h6>Details:</h6>
-                        <p>{details?.description}</p>
-                        <button className="btn btn-color mt-3 py-3 px-5 text-white">Appointment Now !!!</button>
+                        <button className="btn btn-col mt-3 py-3 px-5 text-white">Purchase Now !!!</button>
                     </div>
                 </div>
             </div>

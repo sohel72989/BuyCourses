@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Footer.css"
 
 const Footer = () => {
     return (
@@ -6,7 +7,7 @@ const Footer = () => {
             <div className="footer-bg py-5">
                 <div className="container text-white">
                     <div className="text-center">
-                        <h1 className="text-warning">PureDentSmile</h1>
+                        <h1 className="text-design">EDUCAHUB</h1>
                         <p>Be designed and classified scientifically, courses are suitable to every levels, ensuring to maximize student’s capacity. You will find out many interesting things inside. Let’s discover right now!</p>
                     </div>
                     <hr />
@@ -22,8 +23,8 @@ const Footer = () => {
                         <hr />
                         <div class="row text-center">
                             <div class="col">
-                                <h5 class="text-light">Copyright 2020 &copy; PureDentSmile</h5>
-                                <p>Design By: <a className="text-warning" href="https://www.facebook.com/ih75754/">Sohel Rana</a></p>
+                                <h5 class="text-light">Copyright 2022 &copy; EDUCAHUB</h5>
+                                <p>Design By: <a className="text-design" href="https://www.facebook.com/ih75754/">Sohel Rana</a></p>
                             </div>
                         </div>
                     </div>

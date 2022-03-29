@@ -7,6 +7,12 @@
 .header-bg{
     background-color:rgb(2, 36, 36);
 }
+.btn-color{
+    background-color: rgb(78, 186, 212);
+}
+.btn-color:hover{
+   color: white;
+}
 
 .footer-bg{
     background-color: rgb(2, 36, 36);
