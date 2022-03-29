@@ -7,7 +7,7 @@ import WhyChoose from './WhyChoose';
 
 const Home = () => {
     return (
-        <div>        
+        <div>     
             <Banner></Banner>
             <Services></Services>
             <WhyChoose></WhyChoose>

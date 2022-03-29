@@ -10,7 +10,8 @@ const Services = () => {
   }, []);
 
   return (
-     <div className="container py-5">
+    <div>
+      <div className="container py-5">
         <div className="text-center pb-4">
           <h1>Our Services</h1>
           <p>
@@ -24,7 +25,8 @@ const Services = () => {
             <Service key={service.id} service={service}></Service>
           ))}
         </div>
-      </div >
+      </div>
+    </div>
   );
 };
 
